@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>HireMe.co</title>
+    <style type="text/css" data-jwplayer-id="botr_CAQeMfpE_iV6E8Sg0_div">#botr_CAQeMfpE_iV6E8Sg0_div .jw-display-icon-container .jw-button-color:hover, #botr_CAQeMfpE_iV6E8Sg0_div .jw-display-icon-container .jw-button-color:focus{color: rgb(255, 0, 70);}#botr_CAQeMfpE_iV6E8Sg0_div .jw-button-color.jw-toggle:not(.jw-icon-cast), #botr_CAQeMfpE_iV6E8Sg0_div .jw-button-color:hover:not(.jw-icon-cast), #botr_CAQeMfpE_iV6E8Sg0_div .jw-button-color:focus:not(.jw-icon-cast), #botr_CAQeMfpE_iV6E8Sg0_div .jw-button-color.jw-toggle.jw-off:hover:not(.jw-icon-cast){color: rgb(255, 0, 70);}#botr_CAQeMfpE_iV6E8Sg0_div .jw-icon-cast:hover google-cast-launcher.jw-off{--disconnected-color: #ff0046}#botr_CAQeMfpE_iV6E8Sg0_div .jw-icon-cast:focus google-cast-launcher.jw-off{--disconnected-color: #ff0046}#botr_CAQeMfpE_iV6E8Sg0_div .jw-icon-cast google-cast-launcher.jw-off:focus{--disconnected-color: #ff0046}#botr_CAQeMfpE_iV6E8Sg0_div .jw-icon-cast google-cast-launcher{--connected-color: #ff0046}#botr_CAQeMfpE_iV6E8Sg0_div .jw-icon-cast google-cast-launcher:focus{--connected-color: #ff0046}#botr_CAQeMfpE_iV6E8Sg0_div .jw-icon-cast:hover google-cast-launcher{--connected-color: #ff0046}#botr_CAQeMfpE_iV6E8Sg0_div .jw-icon-cast:focus google-cast-launcher{--connected-color: #ff0046}#botr_CAQeMfpE_iV6E8Sg0_div .jw-slider-time .jw-buffer{background-color: rgba(1, 1, 0, 0.5);}#botr_CAQeMfpE_iV6E8Sg0_div .jw-option.jw-active-option, #botr_CAQeMfpE_iV6E8Sg0_div .jw-option:not(.jw-active-option):hover, #botr_CAQeMfpE_iV6E8Sg0_div .jw-option:not(.jw-active-option):focus, #botr_CAQeMfpE_iV6E8Sg0_div .jw-settings-content-item:hover, #botr_CAQeMfpE_iV6E8Sg0_div .jw-nextup-tooltip:hover, #botr_CAQeMfpE_iV6E8Sg0_div .jw-nextup-tooltip:focus, #botr_CAQeMfpE_iV6E8Sg0_div .jw-nextup-close:hover{color: rgb(255, 0, 70);}#botr_CAQeMfpE_iV6E8Sg0_div .jw-color-active{color: rgb(255, 0, 70); border-color: rgb(255, 0, 70); stroke: rgb(255, 0, 70);}#botr_CAQeMfpE_iV6E8Sg0_div .jw-color-active-hover:hover{color: rgb(255, 0, 70); border-color: rgb(255, 0, 70); stroke: rgb(255, 0, 70);}</style>
+    <style>
+        .px-3 {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    align-items: center;
+    text-align: center;
+        }
+
+        .hero-section {
+            background-repeat: no-repeat; 
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+            <div class="container">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" fill="white" class="bi bi-slack" viewBox="0 0 16 16">
+                    <path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z"/>
+                  </svg>
+              <a class="navbar-brand" href="#" style="padding-left: 10px;">HiREME</a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="navbar-collapse collapse" id="navbarsExample07" style="">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./form.html">Refer & Earn Rs 15K.</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./form.html">For Employers</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Sign / Login</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./form.html">SIGN IN</a></li>
+                      <li><a class="dropdown-item" href="./form.html">LOG IN</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form role="search">
+                    <label for="search" style="color: white; padding-bottom: 5px;">Search for</label>
+                  <input class="form-control" type="search" placeholder="" aria-label="Search">
+                </form>
+              </div>
+            </div>
+        </nav>
+        <div class="main" id="main">
+            <div class="hero-section app-hero" style="background-image: url(./images/background.png);">
+                <div class="container">
+                    <div class="hero-content app-hero-content text-center">
+    
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-12">
+                                <h1>Find your next top tech<br class="d-block d-md-none"> job in 1 week.</h1>
+                                <p class="">
+                                    <span class="yellow-highlight">Are you a top 2%</span> Software Engineer, Product
+                                    Manager or Data Scientist? <br class="d-none d-md-block">Let leading Indian technology
+                                    <span class="yellow-highlight">companies compete to hire you.</span>
+                                </p>
+                                <br class="d-block d-md-none">
+                                <br class="d-block d-md-none">
+                                <a class="btn btn-primary btn-lg" style="margin-top: 20px" href="./form.html">Apply to join</a>
+                                <div class="text-muted" style="margin-top: 10px">100% free. It takes only 5 minutes</div>
+    
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="services-section text-center" id="services">
+                    
+                        <div class="container">
+                            <div class="row  justify-content-md-center">
+                                <div class="col-md-8">
+    
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <div class="services">
+                                        <div class="row">
+                                            <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.2s">
+                                                <div class="services-icon">
+                                                    <img class="" src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/feature_icon_2.png" data-src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/feature_icon_2.png" height="60" width="60" alt="Service">
+                                                </div>
+                                                <div class="services-description">
+                                                    <h1>Step 1: Complete Profile</h1>
+                                                    <p>
+                                                        Once you are approved, we showcase you to leading Indian technology
+                                                        startups
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
+                                                <div class="services-icon">
+                                                    <img class="icon-2" src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/icon1.png" data-src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/icon1.png" height="60" width="60" alt="Service">
+                                                </div>
+                                                <div class="services-description">
+                                                    <h1>Step 2: Receive Job Offers</h1>
+                                                    <p>
+                                                        Companies start sending interview requests. Talk to only the ones
+                                                        you like.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 wow fadeInUp" data-wow-delay="0.4s">
+                                                <div class="services-icon">
+                                                    <img class="icon-3" src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/icon2.png" data-src="https://d383au3bye3rv1.cloudfront.net/static/images/optimized/icon2.png" height="60" width="60" alt="Service">
+                                                </div>
+                                                <div class="services-description">
+                                                    <h1>Step 3: Accept Dream Job</h1>
+                                                    <p>
+                                                        Compare your offers and accept the best one. Hired!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
